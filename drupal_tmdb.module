@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * Implements hook_help().
+ */
+function drupal_tmdb_help($path, $arg) {
+  if ($path == 'admin/help#drupal-tmdb') {
+    return t('Provides a field for loading movie information from themoviedb.org.');
+  }
+}
+

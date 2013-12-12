@@ -1,0 +1,9 @@
+name = Drupal TMDb
+description = Provides a field for loading movie information from themoviedb.org.
+package = Fields
+project = "drupal_tmdb"
+
+core = 7.x
+version = 7.x-1.0-alpha1
+
+files[] = drupal_tmdb.module
